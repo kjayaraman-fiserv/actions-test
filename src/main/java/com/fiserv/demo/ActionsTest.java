@@ -1,4 +1,4 @@
-package com.fiserv.demo.ActionsTest;
+package com.fiserv.demo;
 
 public class ActionsTest {
   public String sayHello() {
