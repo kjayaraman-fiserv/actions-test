@@ -1,0 +1,8 @@
+name: build-code
+run-name: ${{ github.actor }} is building code
+on: [push]
+jobs:
+  build-code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
