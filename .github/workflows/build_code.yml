@@ -10,6 +10,7 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - uses: SonarSource/sonarqube-scan-action@v1.1.0
+      - name: Sonar Scan
+        uses: SonarSource/sonarqube-scan-action@v1.1.0
       - name: Run Maven Build
         run: mvn --batch-mode --update-snapshots verify
